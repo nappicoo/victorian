@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Victorian Age & Realism</title>
+    <!-- Vintage Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Film grain overlay for vintage feel -->
+    <div class="grain"></div>
+
+    <div class="presentation-container">
+        
+        <!-- SLIDE 1: Title -->
+        <section class="slide active" id="slide-1">
+            <div class="slide-image">
+                <img src="img6.jpg" alt="Victorian Ballroom">
+            </div>
+            <div class="slide-content center-text">
+                <p class="subtitle">Welcome to our presentation</p>
+                <h1>The Victorian Age <br><span class="ampersand">&</span><br> Literary Realism</h1>
+                <p class="quote">"Ordinary life can tell extraordinary stories."</p>
+            </div>
+        </section>
+
+        <!-- SLIDE 2: The Era -->
+        <section class="slide" id="slide-2">
+            <div class="slide-image">
+                <img src="img1.jpg" alt="Woman at desk">
+            </div>
+            <div class="slide-content">
+                <span class="slide-number">01</span>
+                <h2>An Era of Contrasts</h2>
+                <p class="text-body">
+                    The Victorian Age (1837–1901) was a time of immense progress. The Industrial Revolution brought railways, factories, and the Great Exhibition of 1851. 
+                </p>
+                <p class="text-body">
+                    However, behind this prosperity lay a harsh reality. While some grew incredibly wealthy, countless others faced extreme poverty and grueling working conditions.
+                </p>
+            </div>
+        </section>
+
+        <!-- SLIDE 3: Realism -->
+        <section class="slide" id="slide-3">
+            <div class="slide-image">
+                <img src="img3.jpg" alt="Woman receiving letter">
+            </div>
+            <div class="slide-content">
+                <span class="slide-number">02</span>
+                <h2>The Birth of Realism</h2>
+                <p class="text-body">
+                    Writers began to look closer at the world around them. Instead of imaginary worlds or magical heroes, they focused on <strong>Realism</strong>—showing life exactly as it was.
+                </p>
+                <p class="text-body">
+                    They wrote about ordinary people, families, and social struggles. Realism became a way to give a voice to those whose stories were often ignored by society.
+                </p>
+            </div>
+        </section>
+
+        <!-- SLIDE 4: The Mirror -->
+        <section class="slide" id="slide-4">
+            <div class="slide-image">
+                <img src="img4.jpg" alt="Woman peeking through curtain">
+            </div>
+            <div class="slide-content">
+                <span class="slide-number">03</span>
+                <h2>Literature as a Mirror</h2>
+                <p class="text-body">
+                    Victorian writers used their stories to discuss the problems society preferred to hide: injustice, inequality, and the struggle for a better life.
+                </p>
+                <p class="text-body">
+                    Literature became a mirror reflecting the real human experiences of fear, hope, disappointment, and courage.
+                </p>
+            </div>
+        </section>
+
+        <!-- SLIDE 5: The Writers -->
+        <section class="slide" id="slide-5">
+            <div class="slide-image">
+                <img src="img5.jpg" alt="Woman at mirror">
+            </div>
+            <div class="slide-content">
+                <span class="slide-number">04</span>
+                <h2>Masters of Realism</h2>
+                <ul class="writer-list">
+                    <li>
+                        <strong>Charles Dickens</strong>
+                        <span>Exposed the suffering of poor children in <em>Oliver Twist</em>.</span>
+                    </li>
+                    <li>
+                        <strong>Charlotte Brontë</strong>
+                        <span>Explored women's independence in <em>Jane Eyre</em>.</span>
+                    </li>
+                    <li>
+                        <strong>George Eliot</strong>
+                        <span>Delved into personal ambition in <em>Middlemarch</em>.</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- SLIDE 6: Characters -->
+        <section class="slide" id="slide-6">
+            <div class="slide-image">
+                <img src="img2.jpg" alt="Portrait of a woman">
+            </div>
+            <div class="slide-content">
+                <span class="slide-number">05</span>
+                <h2>Real Characters, Real Feelings</h2>
+                <p class="text-body">
+                    Characters like <em>Oliver Twist</em> and <em>Jane Eyre</em> were not flawless heroes. They were everyday people facing cruelty, poverty, and seeking dignity.
+                </p>
+                <p class="text-body">
+                    Their feelings are still understood today, proving that literature connects us across time through shared human emotions.
+                </p>
+            </div>
+        </section>
+
+        <!-- SLIDE 7: Conclusion -->
+        <section class="slide" id="slide-7">
+            <div class="slide-image">
+                <img src="img7.jpg" alt="Victorian dress detail">
+            </div>
+            <div class="slide-content">
+                <span class="slide-number">06</span>
+                <h2>A Legacy for Today</h2>
+                <p class="text-body">
+                    The themes of Victorian Realism—poverty, inequality, and the search for independence—are still relevant in our modern world.
+                </p>
+                <p class="text-body">
+                    When we read about their lives, we learn to understand the world through their eyes. Literature isn't just about the past; it's about who we are today.
+                </p>
+                <p class="quote end-quote">Thank you for listening.</p>
+            </div>
+        </section>
+
+        <!-- Navigation Controls -->
+        <div class="nav-controls">
+            <button id="prevBtn" aria-label="Previous Slide">❮</button>
+            <div class="progress-bar-container">
+                <div class="progress-bar" id="progressBar"></div>
+            </div>
+            <span id="slideCounter">1 / 7</span>
+            <button id="nextBtn" aria-label="Next Slide">❯</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
